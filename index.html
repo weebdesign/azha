@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title> Programing-C </title>
+   <!-- Google fonts link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap" rel="stylesheet">
+<!-- fontawesome code here -->
+<script src="https://kit.fontawesome.com/8cd948d9fe.js" crossorigin="anonymous">
+    </script>
+<!-- Extralnal css link here -->
+    <link rel="stylesheet" href="resoucese/css/style.css">
+   
+    
+
+</head>
+<body>
+         <section class="chng-color"  style="margin-bottom: 30px;">
+    <div class="change-color">
+       <div class="btn-head">Change Background Color</div>
+        <button class="red">Red</button>
+        <button class="black">Black</button>
+        <button class="green">Green</button>
+        <button class="yellow">Yellow</button>
+        <button class="violet">Violet</button>
+        <button class="white">Reset</button>
+        <button class="plus">++..</button>
+       
+        </div>
+              </section>
+     <section class="clock">
+   
+   <div id="container">
+   <div class="jui" style="background-color: #4d204c;">
+        <code>Jui</code> <code>Jui</code> <code>r@2</code> <code>Jui</code> <code>Jui</code> <code>Jui</code>  <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> 
+    </div><h1> Comming Soon <br>Eid-ul-Adha</h1>
+    <div class="jui" style="background-color: #4d204c;">
+        
+        <code class="l">Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code>
+        <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code>
+        <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code>
+        <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> 
+        <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> 
+        <code>Jui</code> <code>Jui</code> 
+        <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> 
+        <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code>
+
+        <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> <code>Jui</code>
+        <code>jui</code> <code>r@2</code> <code>Jui</code> <code>Jui</code> <code>Jui</code> 
+    </div>
+                    <div id="timer"></div>
+                </div>
+                </section>
+    
+    
+          
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+   <script src="resoucese/css/jquery.countdown.min.js"></script>
+ <!-- custom js here -->
+ <script type="text/javascript">
+      $("#timer")
+      .countdown("2024/04/11", function(event) {
+        $(this).html(
+        
+        event.strftime('<div><span >%D</span> <span class="secoud-span">Days</span></div>    <div><span>%H</span><span class="secoud-span">Hours</span></div> <div><span>%M</span><span class="secoud-span">Minutes</span></div> <div><span >%S</span><span class="secoud-span ">Secounds</span></div>')
+        
+        );
+       
+      });
+       $(document).ready(function(){
+        $('button').click(function(){
+            $("body").addClass("color")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.red').click(function(){
+            $("body").removeClass("red")
+        });$('.red').click(function(){
+            $("body").removeClass("yellow")
+        });$('.red').click(function(){
+            $("body").removeClass("violet")
+        });$('.red').click(function(){
+            $("body").removeClass("white")
+        });
+         $('.red').click(function(){
+            $("body").addClass("red")
+        });
+
+
+
+        $('.black').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.black').click(function(){
+            $("body").removeClass("red")
+        });$('.black').click(function(){
+            $("body").removeClass("yellow")
+        });$('.black').click(function(){
+            $("body").removeClass("violet")
+        });$('.black').click(function(){
+            $("body").removeClass("white")
+        });
+        $('.black').click(function(){
+            $("body").addClass("black")
+        });
+
+
+        $('.green').click(function(){
+            $("body").removeClass("yellow")
+        });
+        $('.green').click(function(){
+            $("body").removeClass("red")
+        });
+       
+        ;$('.green').click(function(){
+            $("body").removeClass("violet")
+        });$('.green').click(function(){
+            $("body").removeClass("white")
+        });
+        $('.green').click(function(){
+            $("body").addClass("black")
+        });
+       $('.green').click(function(){
+            $("body").addClass("green")
+        });
+
+
+        $('.yellow').click(function(){
+            $("body").removeClass("violet")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.yellow').click(function(){
+            $("body").removeClass("red")
+        });$('.yellow').click(function(){
+            $("body").removeClass("violet")
+        });$('.yellow').click(function(){
+            $("body").removeClass("white")
+        });
+         $('.yellow').click(function(){
+            $("body").addClass("yellow")
+        });
+
+
+        
+        $('.violet').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.violet').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.violet').click(function(){
+            $("body").removeClass("red")
+        });
+        
+        $('.violet').click(function(){
+            $("body").removeClass("white")
+        });
+        $('.violet').click(function(){
+            $("body").addClass("violet")
+        });
+        
+
+
+        $('.white').click(function(){
+            $("body").removeClass("yellow")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("green")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("black")
+        });
+        $('.white').click(function(){
+            $("body").removeClass("red")
+        });
+        $('.white').click(function(){
+            $("body").addClass("white")
+        });
+        $('.plus').click(function(){
+            $(".jui code").animate({
+                fontSize:'+=70px',
+
+        });
+        
+
+
+       });
+    });
+    </script>
+   
+
+    
+   
+    
+        
+</body>          
+    
+   
+</html>
